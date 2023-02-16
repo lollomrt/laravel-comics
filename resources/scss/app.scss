@@ -1,1 +1,29 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.card-styled {
+    width: calc(1200px / 6 - 1rem);
+}
+
+img {
+    height: calc(1200px / 6 - 1rem);
+    object-fit: cover;
+}
+
+.container-cards {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gap-1-rem {
+    gap: 1rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.back-dark {
+    background-color: #1c1c1c;
+}
