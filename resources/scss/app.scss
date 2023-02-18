@@ -88,6 +88,57 @@ header {
     }
 }
 
+.position {
+    position: relative;
+    padding: 3rem 0;
+
+    .label-blue {
+        background-color: #0a58ca;
+        color: #fff;
+        padding: 0.4rem 2.5rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8rem;
+        position: absolute;
+        top: -2rem;
+        left: 0;
+    }
+}
+
+.blue-section {
+    background-color: $primary;
+    display: flex;
+    justify-content: center;
+
+    .container-blue {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0;
+
+        .card-blue {
+            width: calc(100% / 5);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            &:nth-child(4) img {
+                width: 30px;
+            }
+
+            img {
+                width: 40px;
+                height: initial;
+            }
+
+            .icon-text {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
 footer {
     width: 100%;
 
