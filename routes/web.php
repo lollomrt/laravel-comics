@@ -17,3 +17,15 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('home', compact('comics'));
 })->name('homepage');
+
+Route::get('/detail_comic/{id}', function ($id) {
+    $comics = config('comics');
+    $single = '';
+    foreach($comics as $key => $comic){
+        if($key == $id){
+            $single = $comic;
+        }
+    }
+    // dd($single);
+    return view('detail_comic', compact('single'));
+})->name('single-comic');
