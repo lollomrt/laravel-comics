@@ -83,3 +83,23 @@
         }
     }
 }
+
+.container-detail {
+    .url {
+        color: #00a9d9;
+        font-weight: 500;
+    }
+
+    .icons-cont {
+        img {
+            width: 35px;
+            height: initial;
+            filter: invert(0) sepia(0) saturate(50%) hue-rotate(0) brightness(100%) contrast(0);
+            opacity: 0.5;
+        }
+    }
+}
+
+.p-6 {
+    padding-bottom: 6rem;
+}
